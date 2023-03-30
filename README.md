@@ -1,3 +1,7 @@
+# Frontend Mentor - Four card feature section solution
+
+This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -20,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/delia-cretu/nft-preview-card-component-main
-- Live Site URL: https://delia-cretu.github.io/nft-preview-card-component-main/
+- Solution URL: https://github.com/delia-cretu/four-card-feature-section-master
+- Live Site URL: https://delia-cretu.github.io/four-card-feature-section-master/
 
 ## My process
 
@@ -33,31 +37,12 @@ Users should be able to:
 
 ### What I learned
 
-- gained a better understanding of how to use the position attributes relative and absolute
-
-- learned how to center an image on top of another, CSS code I'm proud of:
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-- learned how to hide an image and display it when the mouse hovers over it, CSS code I'm proud of:
-
-```css
-.img-view {
-  opacity: 0;
-}
-```
-
-```css
-.img-section:hover .img-view {
-  opacity: 1;
-}
-```
+I figured out how to place the 4 boxes into a grid with three columns and re-arrange the grid into rows for a mobile-responsive layout.
 
 ### Continued development
 
-I continue to improve my knwoledge of using CSS Grid.
+I continue to improve my knwoledge of CSS Grid.
 
 ### Useful resources
 
-- https://www.w3schools.com/howto/howto_css_image_overlay_icon.asp This resource helped me understand how to overlay an image over another and have it appear when the mouse hovers over it.
+- https://www.digitalocean.com/community/tutorials/css-align-justify This resource helped me understand better how to center items with CSS Grid.

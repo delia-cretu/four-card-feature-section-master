@@ -1,0 +1,153 @@
+body {
+  background-color: #fafafa;
+  font-style: normal;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Title section */
+
+.title-section {
+  margin: auto;
+  padding: 50px 0px 30px 0px;
+  text-align: center;
+}
+
+.title1 {
+  color: #4c4e61;
+  font-size: 1.8rem;
+  font-weight: 200;
+  margin: 0px;
+}
+
+.title2 {
+  color: #4c4e61;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.text {
+  width: 33%;
+  margin: auto;
+  color: #a3a5ae;
+  font-size: 0.9rem;
+}
+
+/* CSS Grid Layout */
+
+.grid-wrapper {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 950px;
+}
+
+.grid-box1 {
+  width: 325px;
+}
+
+.grid-box2 {
+  width: 300px;
+}
+
+.grid-box3 {
+  width: 325px;
+}
+
+/* CSS Grid Styling */
+
+.supervisor,
+.team-builder,
+.karma,
+.calculator {
+  height: 200px;
+  width: 300px;
+
+  padding: 25px;
+
+  background-color: white;
+  border-radius: 7px;
+  /* box-shadow: 5px 5px 20px 5px gray; */
+  line-height: 1.7;
+}
+
+.supervisor,
+.calculator {
+  margin-top: 112.5px;
+}
+.supervisor {
+  border-top: 5px solid #45d3d3;
+}
+.calculator {
+  border-top: 5px solid #549ef2;
+  margin-left: 25px;
+}
+
+.team-builder {
+  margin-bottom: 25px;
+  border-top: 5px solid #ea5353;
+}
+
+.karma {
+  margin-top: 25px;
+  border-top: 5px solid #fcaf4a;
+}
+
+img {
+  float: right;
+  height: 50px;
+  margin-top: 15px;
+}
+
+.grid h3 {
+  font-size: 1rem;
+  color: #4c4e61;
+}
+
+.grid p {
+  font-size: 0.75rem;
+  color: #a3a5ae;
+}
+
+/* Media query for mobile responsive layout */
+
+@media (max-width: 975px) {
+  .text {
+    width: 60%;
+  }
+  .grid-box1,
+  .grid-box3 {
+    width: 300px;
+  }
+  .supervisor,
+  .team-builder,
+  .karma,
+  .calculator {
+    margin: 0px 0px 25px 0px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 225px 450px 225px;
+    justify-items: center;
+    align-items: center;
+
+    height: 900px;
+  }
+  .grid-wrapper {
+    margin-bottom: 60px;
+  }
+}
+
+/* Footer */
+
+.attribution {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  font-size: 0.75rem;
+}

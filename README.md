@@ -22,6 +22,8 @@ Users should be able to:
 
 ### Screenshot
 
+![](./screenshot.jpg)
+
 ### Links
 
 - Solution URL: https://github.com/delia-cretu/four-card-feature-section-master
